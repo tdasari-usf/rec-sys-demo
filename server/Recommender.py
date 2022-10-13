@@ -160,7 +160,6 @@ class Recommender:
         similar_texts = self.convert_to_text(similar_items)
         pop_texts = self.convert_to_text(popular_items)
 
-        sleep(3)
         return {"titles": similar_texts + pop_texts}
 
 

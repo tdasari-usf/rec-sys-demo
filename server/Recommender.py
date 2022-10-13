@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 import pickle
+from time import sleep
 
 # from sentence_transformers import SentenceTransformer
 # from sentence_transformers.util import cos_sim
@@ -159,6 +160,7 @@ class Recommender:
         similar_texts = self.convert_to_text(similar_items)
         pop_texts = self.convert_to_text(popular_items)
 
+        sleep(3)
         return {"titles": similar_texts + pop_texts}
 
 

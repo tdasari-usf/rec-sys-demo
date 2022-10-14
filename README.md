@@ -52,6 +52,5 @@ We have used FASTAPI library to create end points, containerized using docker.
 #### Conclusion:
 
 Here we leveraged the fast search of Hashtables to serve the recommendations by pre calculating the similarities in the titles of the articles.
-In many situations, hash tables turn out to be more efficient than search trees or any other table lookup structure. For this reason, they are widely used in many kinds of computer softwares, particularly for associative arrays, database indexing, caches and sets.
-
+In many situations, hash tables turn out to be more efficient than search trees or any other table lookup structure. 
 
